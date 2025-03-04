@@ -165,8 +165,6 @@ generate_symbol_table(HF, [Symbol|Tail], SymbolBitsTable):-
     generate_symbol_table(HF, Tail, Rest),
     append([sb(Symbol, Code)], Rest, SymbolBitsTable).
 
-%Private predicates-----------------------------------------------------
-
 %inizializza_nodi(SWs, Nodes)
 % Trasforma la lista di coppie (Simbolo, Peso) in una lista di nodi
 inizializza_nodi(SWs, Nodes) :-
