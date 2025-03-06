@@ -1,6 +1,5 @@
 ;;;; Riccardo Piatti 909687, Santiago Pedranzini 884850
 ;;;; -*- Mode: Lisp -*-
-;;;; huffman-codes.lisp
 
 ;;;; Definizione delle strutture dati per Huffman Tree
 (defun make-leaf (symbol weight)
