@@ -1,3 +1,6 @@
+%%%Riccardo Piatti 909687, Santiago Pedranzini 884850
+%%% -*- Mode: Prolog -*-
+
 %%% hucodec_decode/3 true se Message è la decodifica di Bits secondo HuffmanTree
 
 hucodec_decode(Bits, HuffmanTree, Message):-
